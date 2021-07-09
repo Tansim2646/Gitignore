@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-sass": "node-sass Sass/main.scss Css/style.css"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node": "^16.4.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.35.2"
+  },
+  "dependencies": {}
 }
